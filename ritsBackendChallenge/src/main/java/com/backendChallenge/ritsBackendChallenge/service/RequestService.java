@@ -1,6 +1,5 @@
 package com.backendChallenge.ritsBackendChallenge.service;
 
-import com.backendChallenge.ritsBackendChallenge.entities.request.Request;
 import com.backendChallenge.ritsBackendChallenge.entities.request.dto.RequestDto;
 import com.backendChallenge.ritsBackendChallenge.entities.request.dto.RequestProductDto;
 import com.backendChallenge.ritsBackendChallenge.entities.request.dto.ResponseRequestDto;

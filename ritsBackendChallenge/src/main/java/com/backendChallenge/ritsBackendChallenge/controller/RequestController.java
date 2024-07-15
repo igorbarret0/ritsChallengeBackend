@@ -1,11 +1,9 @@
 package com.backendChallenge.ritsBackendChallenge.controller;
 
-import com.backendChallenge.ritsBackendChallenge.entities.request.Request;
 import com.backendChallenge.ritsBackendChallenge.entities.request.dto.RequestDto;
 import com.backendChallenge.ritsBackendChallenge.entities.request.dto.RequestProductDto;
 import com.backendChallenge.ritsBackendChallenge.entities.request.dto.ResponseRequestDto;
 import com.backendChallenge.ritsBackendChallenge.service.RequestService;
-import jakarta.servlet.RequestDispatcher;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
