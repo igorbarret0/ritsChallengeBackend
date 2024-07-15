@@ -1,5 +1,5 @@
 <h1 align="center">
-    Desafio Backend Magalu
+    Desafio Backend Rits
 </h1>
 
 solução do desafio [backend Rits](https://github.com/rits-tecnologia/backend-challenge)
