@@ -38,14 +38,13 @@ public class RequestServiceImpl implements RequestService {
     public void makeAnRequest(Long clientId, RequestProductDto requestProductDto) {
 
         var client = clientRepository.findById(clientId)
-                .orElseThrow(() -> null);
+                .orElseThrow(() -> new RuntimeException("A client could not be found"));
 
         var request = new Request(client);
 
         requestRepository.save(request);
 
         List<Product> myRequestedProducts = getRequestedProducts(requestProductDto);
-
 
         for (Product product : myRequestedProducts) {
 

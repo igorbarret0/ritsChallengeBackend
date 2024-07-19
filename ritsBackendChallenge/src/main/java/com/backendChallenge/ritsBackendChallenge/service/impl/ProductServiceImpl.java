@@ -35,7 +35,7 @@ public class ProductServiceImpl implements ProductService {
     public void updateProduct(Long productId, Product product) {
 
         var productFound = productRepository.findById(productId)
-                .orElseThrow(() -> null);
+                .orElseThrow(() -> new RuntimeException("The product could not be found"));
 
         productFound.setName(product.getName());
         productFound.setPrice(product.getPrice());
